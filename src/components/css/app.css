@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.first-color{
+    color : rgb(255,166,43)
+}
+
+.sec-color{
+    /* color: rgb(54,59,56)    */
+    color:  #363b42;;
+}
+
+.bg-first{
+    background-color:rgb(255,166,43) ;
+}
+
+.bg-sec{
+    background-color: #363b42;
+    color: beige;
+}

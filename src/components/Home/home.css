@@ -1,0 +1,231 @@
+.home{
+    
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url('../../assets/home_page_1.webp');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px){
+    .home{
+        min-height: 70vh;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100% ;
+    position: absolute;
+    z-index: 2;
+    background-color: #3534349d;
+}
+
+.heading{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); */
+    height: 100vh;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    
+}
+
+@media screen and (max-width:768px){
+    .heading{
+        position: absolute;
+        top: -20%;
+        
+    }
+
+}
+
+.border{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border: 15px solid rgba(230, 224, 224, 0.452);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+@media screen and (max-width:768px){
+    .border{
+        width: 300px;
+        height: 300px;
+        top:50%
+    }
+}
+
+/*//////////////////////////////*/
+
+.img-card{
+    z-index: 3;
+    right: -98px;
+    bottom: 99px;
+   
+
+}
+
+
+@media screen and (max-width:768px){
+    .img-card{
+        width: 11rem;
+        text-overflow: unset;
+        right: -50px;
+        bottom: 50px;
+    }
+}
+
+.card4:hover{
+    background-color: rgb(54,59,56);
+    color: #ffff;
+}
+
+/*/////////////////////////////*/
+
+.construction{
+    width: 100%;
+    height: 35vh;
+    background-image: url('../../assets/home_page_3.webp');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.construction-content{
+    height: 35vh;
+}
+
+.overlay-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 3;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+}
+
+
+.service-card3:hover{
+    background-color: rgb(54,59,56);
+    color: beige;
+}
+
+/* ////////////////////////////// */
+
+.counter{
+    height: 40vh;
+    background-image: url('../../assets/home_page_4.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.counter .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #46444480;
+}
+
+@media screen and (max-width:768px){
+    .counter{
+        height: 65vh;
+    }
+
+}
+
+
+.counter-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.counter-pic{
+    width: 80px;
+}
+
+
+/* /////////////////////////////////// */
+
+.staff-card:hover{
+    background-color:rgb(255,166,43) ;
+    color: white !important ;
+}
+
+.staff-social:hover{
+    background-color:rgb(255,166,43) ;
+    color: #ffffff !important ;
+}
+
+
+.social-group{
+    visibility: hidden;
+    
+}
+
+.staff-card:hover .social-group{
+    transition: .6s;
+    visibility: visible;
+   
+}
+
+/* ////////////////////////////////////// */
+
+.prj-overlay{
+    visibility: hidden;
+}
+
+.prj-card:hover .prj-overlay{
+    visibility: visible;
+}
+
+/* ///////////////////////////////////////////// */
+
+.cli-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+/* /////////////////////////////////////////////// */
+
+.faq{
+    background-image: url('../../assets/home_page_4.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.faq-input{
+    border: 1px solid rgba(143, 140, 140, 0.582);
+}
+
+.faq-accordion{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+.faq-collapse:active{
+    background-color:rgb(255,166,43) ;
+}

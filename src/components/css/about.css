@@ -1,0 +1,36 @@
+.about{
+    background-image: url('../../assets/about_1.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: top;
+}
+
+@media screen and (max-width:900px){
+    .about{
+        background-image: url('../../assets/about_1.webp');
+       
+        background-attachment: fixed;
+        background-position-y: top;
+        background-size:cover;
+        background-position:center
+    }
+}
+
+.about-head{
+    height: 75vh;
+    
+}
+
+
+.overlayabout{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    z-index: 2;
+    background-color: #5f5e5e93;
+}
+
+.blog{
+    background-color: white;
+}
