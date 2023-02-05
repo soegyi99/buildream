@@ -126,30 +126,21 @@ function Footer() {
           Home
         </a>
 
-        <a href='/' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
+        <a href='/about' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
           <FaArrowRight />
           About
         </a>
 
-        <a href='/' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
+        <a href='/services' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
           <FaArrowRight />
           Services
         </a>
 
-        <a href='/' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
+        <a href='/project' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
           <FaArrowRight />
           Project
         </a>
 
-        <a href='/' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
-          <FaArrowRight />
-          Pricing
-        </a>
-
-        <a href='/' className='flex hover:text-amber-600 text-lg font-semibold items-center gap-3' >
-          <FaArrowRight />
-          Contact Us
-        </a>
       </div>
      </div>
 

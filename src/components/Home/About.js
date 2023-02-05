@@ -6,14 +6,14 @@ import { BiUser } from 'react-icons/bi'
 import worker from '../../assets/New folder/construction-worker.png'
 import building from '../../assets/New folder/skyline.png'
 import './home.css'
-import { Fade } from 'react-reveal'
+
 
 function AboutC() {
   return (
     <div>
       <div className=' bg-white mb:px-20 px-8 md:py-24 py-6 ' >
         <div className='grid grid-cols-1 md:grid-cols-2' > 
-          <Fade left >
+          
           <div className='relative w-full h-full' >
             <img src={pic2} alt='About' className='w-full h-full object-cover' />
             <div className=' absolute img-card flex items-center gap-5 bg-sec w-76  md:px-8 px-4 md:py-8 py-4 -rotate-90' >
@@ -24,9 +24,8 @@ function AboutC() {
                 </div>
             </div>
         </div>
-          </Fade>
-
-       <Fade right>
+          
+      
        <div className='md:p-5 p-2 bg-gray-100' >
           <div className='first-color text-xl font-bold ' >
             Welcom to Buildream
@@ -106,7 +105,7 @@ function AboutC() {
 
           </div>
         </div>
-       </Fade>
+       
 
         </div>
      </div>
