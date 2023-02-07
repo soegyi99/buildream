@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   const [showMenu,setShowMenu] = useState(false)
-  const activeClass = 'sec-color md:px-6 px-44 py-5 block uppercase nav-link bg-first w-full md:w-auto '
+  const activeClass = 'sec-color md:px-6 px-48 py-5 block uppercase nav-link bg-first w-full md:w-auto '
 
   return (
     <div className='bg-gray-800 text-white overflow-hidden' >
@@ -18,7 +18,7 @@ function Navbar() {
       <button onClick={() => setShowMenu(!showMenu)} className='text-xl mx-3 pr-3  md:hidden' >
         <BiMenu />
       </button>
-      <div className={` ${showMenu ? '' : 'hidden md:block'} z-10 fixed md:static bg-gray-800 w-full md:top-0 top-[152px] md:w-auto`} >
+      <div className={` ${showMenu ? '' : 'hidden md:block'} z-20 fixed md:static bg-gray-800 w-full md:top-0 top-[152px] md:w-auto`} >
         <ul className='flex items-center w-100 justify-center flex-col md:flex-row lg:gap-6 md:pr-3 ' >
           <li className='md:w-auto  ' >
             <NavLink to={'/'} onClick={() => setShowMenu(!showMenu)} className={({isActive}) => isActive ? activeClass : 'px-3 py-5 block uppercase text-gray-200' } >Home</NavLink>

@@ -11,9 +11,9 @@
         background-image: url('../../assets/about_1.webp');
        
         background-attachment: fixed;
-        background-position-y: top;
         background-size:cover;
-        background-position:center
+        background-position:center;
+       
     }
 }
 

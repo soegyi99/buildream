@@ -19,7 +19,7 @@ function Blog() {
         <Link to={'/'}className='flex items-center mr-3 hover:text-amber-500' > Home <FaArrowRight /> </Link>
         About Us <FaArrowRight />
       </div>
-      <h1 className='text-6xl font-semibold uppercase mt-6 tracking-wider' >projects</h1>
+      <h1 className='text-6xl font-semibold uppercase mt-6 tracking-wider text-center' >Blogs</h1>
       </div>
       </div>
 
